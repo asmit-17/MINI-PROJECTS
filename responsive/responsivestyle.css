@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.supermain{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    
+    height: 80px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 4vw;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.nav-logo img{
+        height: 3.5vw;
+}
+
+.nav-menu ul li{
+    list-style-type: none;
+    
+   
+
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+.nav-menu ul{
+    display: flex;
+    gap: 3.8vw;
+    align-items: center;
+    
+}
+
+.nav-menu button{
+
+        height: 2.5vw;
+        width: 7vw;
+        font-family:'Source Sans Pro Topnav', sans-serif;
+        font-size: 1.1vw;
+        font-weight: 600;
+        border-radius: 5px;
+        border: none;
+        color: rgb(255, 255, 255);
+        background-color:#FF735C ;
+       
+}
+
+
+
+.nav-menu{
+    display: flex;
+    gap: 3.8vw;
+}
+
+.nav-menu img{
+    display: none;
+    
+}
+
+
+.main-content{
+    height: 40.1vw;
+    width: 100%;
+    background-color: rgb(139, 139, 100);
+}
+
+
+
+.content{
+    /* background-color: rgb(114, 26, 26); */
+    height: calc(100% - 80px);
+    width: 100%;
+    display: flex;
+    position: relative;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+}
+
+
+.left{
+    /* background-color: pink; */
+    height: 100%;
+    width: 55%;
+    
+
+} 
+
+.left h1{
+    font-size: 4vw;
+    line-height:4.4vw ;
+}
+
+.left h1 span{
+  color:#FF735C;
+}
+
+.left p{
+    margin-top: 3vw;
+    font-size: 1.2vw;
+    width: 80%;
+    
+}
+
+.content button{
+    margin-top: 3vw;
+    height: 3vw;
+    width: 10vw;
+    font-family:'Source Sans Pro Topnav', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color:#FF735C ;
+   
+}
+
+.right{
+    /* background-color: grey; */
+    height: 100%;
+    width: 45%;
+
+}
+
+.right img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+@media  (max-width:600px) {
+    .main{
+        height: 14vw;
+    }
+
+    .nav-logo img{
+        height: 8.5vw;
+    }
+
+    .nav-menu ul{
+        display: none;
+    }
+
+    .nav-menu img{
+        display: flex;
+        height:6.5vw ;
+    }
+
+    .content{
+        /* height: 100%; */
+    }
+
+   
+
+   
+}
