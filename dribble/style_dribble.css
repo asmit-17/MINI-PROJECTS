@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Gilroy-Regular';
+    overflow-y: auto;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.supermain {
+    height: 100%;
+    width: 100%;
+    /* background-color: gray; */
+}
+
+nav {
+    height: 13vh;
+    /* width: 100%; */
+    /* background-color: goldenrod; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2.3vw;
+    padding-right: 2.3vw;
+    position: relative;
+    margin-bottom: 11vh;
+
+
+}
+
+nav img {
+    height: 7.2vh;
+    width: 7.2vw;
+    /* background-color: rgb(202, 132, 132); */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+
+.rnav {
+    font-size: .9vw;
+    font-weight: 900;
+    display: flex;
+    align-self: center;
+    gap: 2vw;
+    /* background-color: olive; */
+}
+
+.lnav {
+    display: flex;
+    align-items: center;
+    gap: 1.8vw;
+    /* background-color: paleturquoise; */
+}
+
+.lnav button {
+    padding: 1vw;
+    width: 6vw;
+    /* border: 2px solid black; */
+    border: none;
+    background-color: rgb(22, 22, 41);
+    border-radius: 48px;
+    color: white;
+    font-size: .9vw;
+    font-weight: 600;
+
+}
+
+.lnav h4 {
+    font-weight: 600;
+    font-size: 1.1vw;
+}
+
+.texts {
+    /* height: 40vh; */
+    /* width: 100%; */
+    /* background-color: rgb(174, 20, 174); */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    letter-spacing: .07vw;
+    margin-bottom: 10vh;
+}
+
+
+.texts h4:nth-child(1) {
+    padding: .8vw;
+    background-color: rgb(186, 146, 183);
+    /* width: 22vw; */
+    text-align: center;
+    border-radius: 35px;
+    margin-bottom: 1.6vw;
+}
+
+.texts h1 {
+    /* padding: .8vw; */
+    /* background-color: green; */
+    /* width: 19vw; */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* border-radius: 35px; */
+    font-weight: 500;
+    line-height: 5.2vw;
+
+    font-size: 5.6vw;
+    margin-bottom: 2.1vw;
+}
+
+.texts h4:nth-child(3) {
+    font-size: 1vw;
+    font-weight: 600;
+    margin-bottom: 2vw;
+    background-color: #ffffad;
+    padding: .6vw .3vw;
+}
+
+.texts button {
+    padding: 1.2vw;
+    width: 7.4vw;
+    /* border: 2px solid black; */
+    border: none;
+    background-color: rgb(22, 22, 41);
+    border-radius: 48px;
+    color: white;
+    font-size: .9vw;
+    font-weight: 600;
+
+}
+
+
+
+.scroll {
+    height: 46vh;
+    width: 196.5%;
+    white-space: nowrap;
+    /* background-color: firebrick; */
+    /* display: flex;
+    flex-wrap: nowrap; */
+    /* gap: 2.7vw; */
+    overflow-x: auto;
+    overflow-y: hidden;
+
+
+    /* animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+    
+    
+
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+
+    
+      animation-name: anime;
+    animation-duration: 55s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+/* 
+.elem {
+
+    
+    flex-shrink: 0;
+    height: 100%;
+    width: 18vw;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: rebeccapurple;
+    border-radius: 40px;
+    overflow: hidden;
+
+
+} */
+
+.container img,video{
+    height: 100%;
+    width: 17vw;
+    border-radius: 40px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 1.2vw;
+    position: relative;
+}
+
+#abc{
+
+}
+
+
+@keyframes anime {
+    from {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translate(-100%);
+    }
+}
